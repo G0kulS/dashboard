@@ -35,7 +35,7 @@ function App() {
         <Route path="/createuser" exact="true">
         <Createuser></Createuser>
         </Route>
-        <Route path="/edituser:id" exact="true">
+        <Route path="/edit-user" exact="true">
         <div>Edit-user</div>
         </Route>
        </Switch>
