@@ -20,14 +20,13 @@ function Lside()
      <li className="nav-item active"><Link to="/user">
     <span className="nav-link"><i class="fas fa-user"></i>  User</span></Link>
      </li><hr className="sidebar-divider my-0"/>
-     <li className="nav-item active">
+     <Link to ="/createuser"><li className="nav-item active">
     <span className="nav-link"><i class="fas fa-user-plus"></i> Create User</span>
-     </li>
+     </li></Link>
      <hr className="sidebar-divider my-0"/>
-     <li className="nav-item active">
-         
-         <span className="nav-link"><i class="fas fa-user-cog"></i> Edit User</span>
- </li>
+    <Link to ="/edit-user"> <li className="nav-item active">
+    <span className="nav-link"><i class="fas fa-user-cog"></i> Edit User</span>
+ </li></Link>
  <hr className="sidebar-divider my-0"/>
      
      </ul>
